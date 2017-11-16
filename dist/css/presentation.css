@@ -12,11 +12,11 @@ pre > code > span.keyword, .function > span.keyword {
     color: #c69edf;
 }
 
-pre > code > span.title, .function > span.keyword  {
+pre > code > span.title, .function > span.title  {
     color: #91b7e8;
 }
 
-pre > code > span.string, .function > span.keyword  {
+pre > code > span.string, .function > span.string  {
     color: #9de382;
 }
 
