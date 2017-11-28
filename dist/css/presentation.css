@@ -1,4 +1,6 @@
-pre > .javascript {
+/* FOR LARGE FORMAT PRESENTATION PURPOSES, MAKES COLORS BRIGHTER - FONTS LARGER */
+
+pre > code.javascript, code.html, code.xml, code.css {
     font-weight: 400;
     font-size: 25px;
     line-height: 1;
@@ -16,8 +18,12 @@ pre > code > span.title, .function > span.title  {
     color: #91b7e8;
 }
 
-pre > code > span.string, .function > span.string  {
+pre > code > span.string, .function > span.string, code.html > span.tag > span.value  {
     color: #9de382;
+}
+
+pre > code.apache > span.tag, code.xml > span.tag, code.html > span.tag > span.title, span.attribute {
+    color: #ff5d5e;
 }
 
 pre {
